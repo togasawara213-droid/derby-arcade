@@ -1,6 +1,6 @@
-/* ダービーアーケード：オフライン用 Service Worker（版 0574c0991b）
+/* ダービーアーケード：オフライン用 Service Worker（版 1a45b7791d）
    ゲーム本体はネットにつながっていれば最新を取り、つながらなければ保存しておいたものを使う */
-var CACHE = 'derby-0574c0991b';
+var CACHE = 'derby-1a45b7791d';
 var CORE = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png', './maskable-512.png'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(CORE); }).then(function () { return self.skipWaiting(); }));
