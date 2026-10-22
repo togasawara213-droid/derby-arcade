@@ -14,4 +14,4 @@
 - `manifest.webmanifest`・`icon-*.png`・`maskable-512.png` … ホーム画面用のアプリ名とアイコン
 - `sw.js` … オフラインで遊ぶための Service Worker
 
-版：1a45b7791d
+版：9e7845314f
